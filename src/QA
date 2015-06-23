@@ -1,0 +1,78 @@
+
+1) create table2 and insert rows
+
+CREATE TABLE T2 ( Name CHAR ( 8 ) , Age INT , Relation CHAR ( 10 ) ) ;
+INSERT INTO T2 VALUES ( John , 31 , brother ) ;
+INSERT INTO T2 VALUES ( Jane , 5 , sister ) ;
+INSERT INTO T2 VALUES ( Jenny , 35 , daughter ) ;
+INSERT INTO T2 VALUES ( Joe , 35 , father ) ;
+INSERT INTO T2 VALUES ( Joan , 35 , mother ) ;
+INSERT INTO T2 VALUES ( Jake , 35 , son ) ;
+
+2) create table1 and insert rows
+
+CREATE TABLE T1 ( Name CHAR ( 8 ) , Age INT , Relation CHAR ( 10 ) ) ;
+INSERT INTO T1 VALUES ( John , 31 , brother ) ;
+INSERT INTO T1 VALUES ( Jane , 135 , sister ) ;
+INSERT INTO T1 VALUES ( Jenny , 35 , daughter ) ;
+INSERT INTO T1 VALUES ( Joe , 35 , father ) ;
+INSERT INTO T1 VALUES ( Joan , 35 , mother ) ;
+INSERT INTO T1 VALUES ( Jake , 35 , son ) ;
+INSERT INTO T1 VALUES ( Testname , 40 , son ) ;
+
+
+3) Create non-unqiue Index - ASC by default
+	
+CREATE INDEX AgeNameNonUniq ON T2 ( Age , Name ) ;
+	
+4) Create non-unqiue Index - DESC on integer
+	
+CREATE INDEX AgeNameD1 ON T2 ( Age DESC , Name ) ;
+
+5) Create non-unqiue Index - DESC on integer and string
+	
+CREATE INDEX X2 ON T1 ( Age DESC , Name DESC ) ;
+
+6) Create unqiue Index - ASC by default
+	
+CREATE UNIQUE INDEX X3 ON T1 ( Age , Name ) ;
+	
+7) Create unqiue Index - DESC on integer
+	
+CREATE UNIQUE INDEX X4 ON T1 ( Age DESC , Name ) ;
+
+8) Create unqiue Index - DESC on integer and string
+	
+CREATE UNIQUE INDEX X5 ON T1 ( Age DESC , Name DESC ) ;
+
+9) Error handling Unique Index Duplication 
+
+CREATE UNIQUE INDEX X6 ON T1 ( Age DESC , Name DESC ) ;
+CREATE UNIQUE INDEX X6 ON T1 ( Name DESC ) ;
+
+10) Error handle for CREATING INDEX on NON-EXISTING TABLE
+
+CREATE UNIQUE INDEX X7 ON T3 ( Name DESC ) ;
+CREATE INDEX X6 ON T3 ( Name DESC ) ;
+
+11) DROP INDEX
+
+CREATE UNIQUE INDEX X8 ON T2 ( Name DESC ) ;
+DROP INDEX X8 ;
+
+12) Error handling for non-existing index
+
+DROP INDEX X9 ;
+
+13) Error handling for missing ';'
+
+DROP INDEX X8
+
+14) RUNSTATS
+
+RUNSTATS T1 ;
+RUNSTATS T2 ;
+
+15) Error handling for missing ';'
+
+RUNSTATS T1

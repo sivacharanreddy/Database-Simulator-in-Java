@@ -1,0 +1,26 @@
+3
+Name C8 true
+Age I true
+Relation C10 true
+9
+AGENAME false 2A 1A 
+X2 false 2D 1D 
+X1 false 2D 1A 
+X3 true 2A 1A 
+X4 true 2D 1A 
+X5 true 2D 1D 
+X6 true 2D 1D 
+NAMEAGE false 1A 2A 
+X11 true 2A 1A 
+11
+  1 John             31 brother    
+  2 Jane            135 sister     
+  3 Jenny            35 daughter   
+  4 Joe              35 father     
+  5 Joan             35 mother     
+  6 Jake             35 son        
+  7 Testname         40 son        
+  8 -                42 son
+  9 -                45 brother
+  10 Ram               - son
+  11 Ram               55 brother

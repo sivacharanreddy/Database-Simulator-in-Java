@@ -1,0 +1,37 @@
+CREATE TABLE T2 ( Name CHAR ( 8 ) , Age INT , Relation CHAR ( 10 ) ) ;
+INSERT INTO T2 VALUES ( John , 31 , brother ) ;
+INSERT INTO T2 VALUES ( Jane , 5 , sister ) ;
+INSERT INTO T2 VALUES ( Jenny , 35 , daughter ) ;
+INSERT INTO T2 VALUES ( Joe , 35 , father ) ;
+INSERT INTO T2 VALUES ( Joan , 35 , mother ) ;
+INSERT INTO T2 VALUES ( Jake , 35 , son ) ;
+
+
+CREATE INDEX NameAgeNull ON T2 ( Name , Age ) ;
+
+DROP INDEX NameAgeNull ;
+
+
+CREATE UNIQUE INDEX AgeName ON T1 ( Age DESC , Name );
+
+
+CREATE UNIQUE INDEX X1 ON T1 ( Age , Name ) ;
+
+DROP INDEX X1 ;
+
+RUNSTATS T1 ;
+
+
+
+CREATE TABLE T2 ( HELLO CHAR ( 5 ) , GOODBYE INT NOT NULL ) ;
+INSERT INTO T2 VALUES ( - , 2 ) ;
+
+
+CREATE UNIQUE INDEX X1 ON T1 ( HELLO ) ;
+
+CREATE UNIQUE INDEX AGE ON T1 ( AGE ) ;
+
+CREATE UNIQUE INDEX AGENAME ON T1 ( AGE , NAME ) ;
+
+
+CREATE UNIQUE INDEX X2 ON T2 ( Age DESC , Name ) ;

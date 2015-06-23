@@ -1,0 +1,1 @@
+CREATE INDEX AgeNameNullDESC ON T2 ( Age DESC , Name DESC ) ;

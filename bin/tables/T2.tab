@@ -1,0 +1,19 @@
+3
+Name C8 true
+Age I true
+Relation C10 true
+3
+NAMEAGENULL false 1A 2A 
+AGENAMENULL false 2A 1A 
+AGENAMENULLDESC false 2D 1D 
+10
+  1 John             31 brother    
+  2 Jane              5 sister     
+  3 Jenny            35 daughter   
+  4 Joe              35 father     
+  5 Joan             35 mother     
+  6 Jake             35 son    
+  7 -                42 son
+  8 -                45 brother
+  9 Ram               - son
+  10 Ram               55 brother

@@ -1,0 +1,330 @@
+26.10.13 02:55:03 :	JAVA ERROR:  null
+26.10.13 03:55:06 :	JAVA ERROR:  null
+26.10.13 04:00:19 :	JAVA ERROR:  null
+26.10.13 04:01:57 :	JAVA ERROR:  null
+26.10.13 09:12:36 :	DBMS ERROR:  Invalid DROP INDEX statement. 'DROP INDEX X2;'.
+26.10.13 09:13:58 :	DBMS ERROR:  Invalid DROP INDEX statement. 'DROP INDEX X2;'.
+26.10.13 09:14:39 :	DBMS ERROR:  Invalid DROP INDEX statement. 'DROP INDEX X2;'.
+26.10.13 09:15:05 :	DBMS ERROR:  Invalid DROP INDEX statement. 'DROP INDEX X2 ;'.
+26.10.13 09:16:21 :	Table X2 was dropped.
+26.10.13 09:17:45 :	DBMS ERROR:  Invalid index file format.
+26.10.13 09:59:44 :	DBMS ERROR:  Invalid index file format.
+26.10.13 10:01:22 :	DBMS ERROR:  Invalid index file format.
+26.10.13 10:01:38 :	DBMS ERROR:  Invalid index file format.
+26.10.13 10:03:40 :	TABLE CARDINALITY: 0
+26.10.13 10:03:40 :	Name
+26.10.13 10:03:40 :		COLUMN CARDINALITY: 6
+26.10.13 10:03:40 :		COLUMN HIGH KEY: John
+26.10.13 10:03:40 :		COLUMN LOW KEY: Jake
+26.10.13 10:03:40 :	Age
+26.10.13 10:03:40 :		COLUMN CARDINALITY: 9
+26.10.13 10:03:40 :		COLUMN HIGH KEY: John
+26.10.13 10:03:40 :		COLUMN LOW KEY: 31
+26.10.13 10:03:40 :	Relation
+26.10.13 10:03:40 :		COLUMN CARDINALITY: 15
+26.10.13 10:03:40 :		COLUMN HIGH KEY: son
+26.10.13 10:03:40 :		COLUMN LOW KEY: 31
+26.10.13 10:06:58 :	TABLE CARDINALITY: 0
+26.10.13 10:06:58 :	Name
+26.10.13 10:06:58 :		COLUMN CARDINALITY: 6
+26.10.13 10:06:58 :		COLUMN HIGH KEY: John
+26.10.13 10:06:58 :		COLUMN LOW KEY: Jake
+26.10.13 10:06:58 :	Age
+26.10.13 10:06:58 :		COLUMN CARDINALITY: 3
+26.10.13 10:06:58 :		COLUMN HIGH KEY: 3895
+26.10.13 10:06:58 :		COLUMN LOW KEY: 31
+26.10.13 10:06:58 :	Relation
+26.10.13 10:06:58 :		COLUMN CARDINALITY: 6
+26.10.13 10:06:58 :		COLUMN HIGH KEY: son
+26.10.13 10:06:58 :		COLUMN LOW KEY: brother
+26.10.13 10:18:16 :	DBMS ERROR:  Invalid CREATE UNIQUE X1 statement. 'CREATE UNIQUE X1 ON T1 ( Age , Name );'.
+26.10.13 10:19:18 :	Table X1 was dropped.
+26.10.13 10:20:08 :	TABLE CARDINALITY: 0
+26.10.13 10:20:08 :	Name
+26.10.13 10:20:08 :		COLUMN CARDINALITY: 6
+26.10.13 10:20:08 :		COLUMN HIGH KEY: John
+26.10.13 10:20:08 :		COLUMN LOW KEY: Jake
+26.10.13 10:20:08 :	Age
+26.10.13 10:20:08 :		COLUMN CARDINALITY: 3
+26.10.13 10:20:08 :		COLUMN HIGH KEY: 3895
+26.10.13 10:20:08 :		COLUMN LOW KEY: 31
+26.10.13 10:20:08 :	Relation
+26.10.13 10:20:08 :		COLUMN CARDINALITY: 6
+26.10.13 10:20:08 :		COLUMN HIGH KEY: son
+26.10.13 10:20:08 :		COLUMN LOW KEY: brother
+26.10.13 10:57:29 :	Table T2 was created.
+26.10.13 10:57:29 :	One line was saved to the table. T2:   0 -              2 
+26.10.13 10:58:20 :	DBMS ERROR:  Invalid CREATE UNIQUE X1 statement. 'CREATE UNIQUE X1 ON T1 ( Age , Name ) ;'.
+26.10.13 11:10:15 :	Index X2 was dropped.
+26.10.13 15:57:40 :	DBMS ERROR:  Invalid index file format.
+26.10.13 16:01:04 :	DBMS ERROR:  Invalid index file format.
+26.10.13 16:06:39 :	DBMS ERROR:  Invalid index file format.
+26.10.13 16:09:23 :	Index X1 does not exist.
+26.10.13 16:10:35 :	Index X2 was dropped.
+26.10.13 16:11:30 :	Table T2 was created.
+26.10.13 16:11:30 :	One line was saved to the table. T2:   1 -              2 
+26.10.13 16:16:20 :	Index AGENAME was dropped.
+26.10.13 16:16:37 :	Index AGE was dropped.
+26.10.13 16:17:00 :	Index X1 was dropped.
+26.10.13 16:17:26 :	Table T2 was dropped.
+26.10.13 16:19:03 :	Table T2 was created.
+26.10.13 16:19:03 :	One line was saved to the table. T2:   1 John             31 brother    
+26.10.13 16:19:03 :	One line was saved to the table. T2:   2 Jane              5 sister     
+26.10.13 16:19:03 :	One line was saved to the table. T2:   3 Jenny            35 daughter   
+26.10.13 16:19:03 :	One line was saved to the table. T2:   4 Joe              35 father     
+26.10.13 16:19:03 :	One line was saved to the table. T2:   5 Joan             35 mother     
+26.10.13 16:19:03 :	One line was saved to the table. T2:   6 Jake             35 son        
+26.10.13 16:22:53 :	Index X1 was dropped.
+26.10.13 16:22:53 :	Index X2 was dropped.
+26.10.13 16:24:10 :	Index X1 was dropped.
+26.10.13 16:24:10 :	Index X2 was dropped.
+26.10.13 16:24:45 :	Index X2 was dropped.
+26.10.13 16:25:33 :	Index X2 was dropped.
+26.10.13 16:26:13 :	TABLE CARDINALITY: 0
+26.10.13 16:26:13 :	Name
+26.10.13 16:26:13 :		COLUMN CARDINALITY: 6
+26.10.13 16:26:13 :		COLUMN HIGH KEY: John
+26.10.13 16:26:13 :		COLUMN LOW KEY: Jake
+26.10.13 16:26:13 :	Age
+26.10.13 16:26:13 :		COLUMN CARDINALITY: 3
+26.10.13 16:26:13 :		COLUMN HIGH KEY: 3895
+26.10.13 16:26:13 :		COLUMN LOW KEY: 31
+26.10.13 16:26:13 :	Relation
+26.10.13 16:26:13 :		COLUMN CARDINALITY: 6
+26.10.13 16:26:13 :		COLUMN HIGH KEY: son
+26.10.13 16:26:13 :		COLUMN LOW KEY: brother
+26.10.13 16:26:13 :	TABLE CARDINALITY: 0
+26.10.13 16:26:13 :	Name
+26.10.13 16:26:13 :		COLUMN CARDINALITY: 6
+26.10.13 16:26:13 :		COLUMN HIGH KEY: John
+26.10.13 16:26:13 :		COLUMN LOW KEY: Jake
+26.10.13 16:26:13 :	Age
+26.10.13 16:26:13 :		COLUMN CARDINALITY: 3
+26.10.13 16:26:13 :		COLUMN HIGH KEY: 5
+26.10.13 16:26:13 :		COLUMN LOW KEY: 31
+26.10.13 16:26:13 :	Relation
+26.10.13 16:26:13 :		COLUMN CARDINALITY: 6
+26.10.13 16:26:13 :		COLUMN HIGH KEY: son
+26.10.13 16:26:13 :		COLUMN LOW KEY: brother
+26.10.13 16:37:20 :	TABLE CARDINALITY: 0
+26.10.13 16:37:20 :	Name
+26.10.13 16:37:20 :		COLUMN CARDINALITY: 6
+26.10.13 16:37:20 :		COLUMN HIGH KEY: John
+26.10.13 16:37:20 :		COLUMN LOW KEY: Jake
+26.10.13 16:37:20 :	Age
+26.10.13 16:37:20 :		COLUMN CARDINALITY: 3
+26.10.13 16:37:20 :		COLUMN HIGH KEY: 3895
+26.10.13 16:37:20 :		COLUMN LOW KEY: 31
+26.10.13 16:37:20 :	Relation
+26.10.13 16:37:20 :		COLUMN CARDINALITY: 6
+26.10.13 16:37:20 :		COLUMN HIGH KEY: son
+26.10.13 16:37:20 :		COLUMN LOW KEY: brother
+26.10.13 16:37:20 :	TABLE CARDINALITY: 0
+26.10.13 16:37:20 :	Name
+26.10.13 16:37:20 :		COLUMN CARDINALITY: 6
+26.10.13 16:37:20 :		COLUMN HIGH KEY: John
+26.10.13 16:37:20 :		COLUMN LOW KEY: Jake
+26.10.13 16:37:20 :	Age
+26.10.13 16:37:20 :		COLUMN CARDINALITY: 3
+26.10.13 16:37:20 :		COLUMN HIGH KEY: 35
+26.10.13 16:37:20 :		COLUMN LOW KEY: 5
+26.10.13 16:37:20 :	Relation
+26.10.13 16:37:20 :		COLUMN CARDINALITY: 6
+26.10.13 16:37:20 :		COLUMN HIGH KEY: son
+26.10.13 16:37:20 :		COLUMN LOW KEY: brother
+27.10.13 10:26:48 :	TABLE CARDINALITY: 6
+27.10.13 10:26:48 :	Name
+27.10.13 10:26:48 :		COLUMN CARDINALITY: 6
+27.10.13 10:26:48 :		COLUMN HIGH KEY: John
+27.10.13 10:26:48 :		COLUMN LOW KEY: Jake
+27.10.13 10:26:48 :	Age
+27.10.13 10:26:48 :		COLUMN CARDINALITY: 3
+27.10.13 10:26:48 :		COLUMN HIGH KEY: 3895
+27.10.13 10:26:48 :		COLUMN LOW KEY: 31
+27.10.13 10:26:48 :	Relation
+27.10.13 10:26:48 :		COLUMN CARDINALITY: 6
+27.10.13 10:26:48 :		COLUMN HIGH KEY: son
+27.10.13 10:26:48 :		COLUMN LOW KEY: brother
+27.10.13 10:27:12 :	TABLE CARDINALITY: 6
+27.10.13 10:27:12 :	Name
+27.10.13 10:27:12 :		COLUMN CARDINALITY: 6
+27.10.13 10:27:12 :		COLUMN HIGH KEY: John
+27.10.13 10:27:12 :		COLUMN LOW KEY: Jake
+27.10.13 10:27:12 :	Age
+27.10.13 10:27:12 :		COLUMN CARDINALITY: 3
+27.10.13 10:27:12 :		COLUMN HIGH KEY: 3895
+27.10.13 10:27:12 :		COLUMN LOW KEY: 31
+27.10.13 10:27:12 :	Relation
+27.10.13 10:27:12 :		COLUMN CARDINALITY: 6
+27.10.13 10:27:12 :		COLUMN HIGH KEY: son
+27.10.13 10:27:12 :		COLUMN LOW KEY: brother
+27.10.13 10:27:12 :	TABLE CARDINALITY: 6
+27.10.13 10:27:12 :	Name
+27.10.13 10:27:12 :		COLUMN CARDINALITY: 6
+27.10.13 10:27:12 :		COLUMN HIGH KEY: John
+27.10.13 10:27:12 :		COLUMN LOW KEY: Jake
+27.10.13 10:27:12 :	Age
+27.10.13 10:27:12 :		COLUMN CARDINALITY: 3
+27.10.13 10:27:12 :		COLUMN HIGH KEY: 35
+27.10.13 10:27:12 :		COLUMN LOW KEY: 5
+27.10.13 10:27:12 :	Relation
+27.10.13 10:27:12 :		COLUMN CARDINALITY: 6
+27.10.13 10:27:12 :		COLUMN HIGH KEY: son
+27.10.13 10:27:12 :		COLUMN LOW KEY: brother
+27.10.13 20:31:18 :	Table T2 was created.
+27.10.13 20:31:18 :	One line was saved to the table. T2:   1 John             31 brother    
+27.10.13 20:31:18 :	One line was saved to the table. T2:   2 Jane              5 sister     
+27.10.13 20:31:18 :	One line was saved to the table. T2:   3 Jenny            35 daughter   
+27.10.13 20:31:18 :	One line was saved to the table. T2:   4 Joe              35 father     
+27.10.13 20:31:18 :	One line was saved to the table. T2:   5 Joan             35 mother     
+27.10.13 20:31:18 :	One line was saved to the table. T2:   6 Jake             35 son        
+27.10.13 20:32:45 :	Table T1 was created.
+27.10.13 20:32:45 :	One line was saved to the table. T1:   1 John             31 brother    
+27.10.13 20:32:45 :	One line was saved to the table. T1:   2 Jane              5 sister     
+27.10.13 20:32:45 :	One line was saved to the table. T1:   3 Jenny            35 daughter   
+27.10.13 20:32:45 :	One line was saved to the table. T1:   4 Joe              35 father     
+27.10.13 20:32:45 :	One line was saved to the table. T1:   5 Joan             35 mother     
+27.10.13 20:32:45 :	One line was saved to the table. T1:   6 Jake             35 son        
+27.10.13 20:33:25 :	Table T1 was created.
+27.10.13 20:33:25 :	One line was saved to the table. T1:   1 John             31 brother    
+27.10.13 20:33:25 :	One line was saved to the table. T1:   2 Jane            135 sister     
+27.10.13 20:33:25 :	One line was saved to the table. T1:   3 Jenny            35 daughter   
+27.10.13 20:33:25 :	One line was saved to the table. T1:   4 Joe              35 father     
+27.10.13 20:33:25 :	One line was saved to the table. T1:   5 Joan             35 mother     
+27.10.13 20:33:25 :	One line was saved to the table. T1:   6 Jake             35 son        
+27.10.13 20:39:02 :	Index AgeName was dropped.
+27.10.13 20:41:45 :	Index AgeName was dropped.
+27.10.13 20:43:08 :	Index AgeName was dropped.
+27.10.13 21:16:59 :	Index X8 was dropped.
+27.10.13 21:17:54 :	Index X9 does not exist.
+27.10.13 21:18:43 :	DBMS ERROR:  Invalid DROP INDEX statement. 'DROP INDEX X8'.
+27.10.13 21:19:53 :	TABLE CARDINALITY: 6
+27.10.13 21:19:53 :	Name
+27.10.13 21:19:53 :		COLUMN CARDINALITY: 6
+27.10.13 21:19:53 :		COLUMN HIGH KEY: John
+27.10.13 21:19:53 :		COLUMN LOW KEY: Jake
+27.10.13 21:19:53 :	Age
+27.10.13 21:19:53 :		COLUMN CARDINALITY: 3
+27.10.13 21:19:53 :		COLUMN HIGH KEY: 135
+27.10.13 21:19:53 :		COLUMN LOW KEY: 31
+27.10.13 21:19:53 :	Relation
+27.10.13 21:19:53 :		COLUMN CARDINALITY: 6
+27.10.13 21:19:53 :		COLUMN HIGH KEY: son
+27.10.13 21:19:53 :		COLUMN LOW KEY: brother
+27.10.13 21:20:18 :	TABLE CARDINALITY: 6
+27.10.13 21:20:18 :	Name
+27.10.13 21:20:18 :		COLUMN CARDINALITY: 6
+27.10.13 21:20:18 :		COLUMN HIGH KEY: John
+27.10.13 21:20:18 :		COLUMN LOW KEY: Jake
+27.10.13 21:20:18 :	Age
+27.10.13 21:20:18 :		COLUMN CARDINALITY: 3
+27.10.13 21:20:18 :		COLUMN HIGH KEY: 35
+27.10.13 21:20:18 :		COLUMN LOW KEY: 5
+27.10.13 21:20:18 :	Relation
+27.10.13 21:20:18 :		COLUMN CARDINALITY: 6
+27.10.13 21:20:18 :		COLUMN HIGH KEY: son
+27.10.13 21:20:18 :		COLUMN LOW KEY: brother
+27.10.13 21:20:50 :	TABLE CARDINALITY: 6
+27.10.13 21:20:50 :	Name
+27.10.13 21:20:50 :		COLUMN CARDINALITY: 6
+27.10.13 21:20:50 :		COLUMN HIGH KEY: John
+27.10.13 21:20:50 :		COLUMN LOW KEY: Jake
+27.10.13 21:20:50 :	Age
+27.10.13 21:20:50 :		COLUMN CARDINALITY: 3
+27.10.13 21:20:50 :		COLUMN HIGH KEY: 135
+27.10.13 21:20:50 :		COLUMN LOW KEY: 31
+27.10.13 21:20:50 :	Relation
+27.10.13 21:20:50 :		COLUMN CARDINALITY: 6
+27.10.13 21:20:50 :		COLUMN HIGH KEY: son
+27.10.13 21:20:50 :		COLUMN LOW KEY: brother
+27.10.13 21:23:40 :	JAVA ERROR:  null
+27.10.13 21:34:16 :	JAVA ERROR:  null
+27.10.13 21:36:42 :	DBMS ERROR:  Invalid DROP INDEX statement. 'RUNSTATS T1'.
+27.10.13 21:37:59 :	DBMS ERROR:  Invalid DROP INDEX statement. 'DROP INDEX X8'.
+27.10.13 21:38:20 :	Index X9 does not exist.
+27.10.13 21:39:26 :	Error: Index X9 does not exist.
+28.10.13 12:57:33 :	One line was saved to the table. T1:   7 Testname         40 son        
+28.10.13 15:25:10 :	DBMS ERROR:  Invalid DROP INDEX statement. 'RUNSTATS T2 ;'.
+28.10.13 15:25:35 :	DBMS ERROR:  Invalid DROP INDEX statement. 'RUNSTATS T2 ;'.
+28.10.13 15:27:33 :	TABLE CARDINALITY: 6
+28.10.13 15:27:33 :	Name
+28.10.13 15:27:33 :		COLUMN CARDINALITY: 6
+28.10.13 15:27:33 :		COLUMN HIGH KEY: John
+28.10.13 15:27:33 :		COLUMN LOW KEY: Jake
+28.10.13 15:27:33 :	Age
+28.10.13 15:27:33 :		COLUMN CARDINALITY: 3
+28.10.13 15:27:33 :		COLUMN HIGH KEY: 35
+28.10.13 15:27:33 :		COLUMN LOW KEY: 5
+28.10.13 15:27:33 :	Relation
+28.10.13 15:27:33 :		COLUMN CARDINALITY: 6
+28.10.13 15:27:33 :		COLUMN HIGH KEY: son
+28.10.13 15:27:33 :		COLUMN LOW KEY: brother
+29.10.13 08:30:26 :	DBMS ERROR:  An INT column cannot hold a CHAR. 'INSERT INTO T2 VALUES ( Jake ,   , son ) ;'.
+29.10.13 08:38:58 :	Index X12 was dropped.
+31.10.13 14:21:42 :	DBMS ERROR:  An INT column cannot hold a CHAR. 'INSERT INTO T1 VALUES ( Testname , - , son ) ;'.
+31.10.13 14:47:36 :	Index NameNull was dropped.
+31.10.13 15:19:29 :	Index NameNullDesc was dropped.
+31.10.13 15:20:29 :	Index NameNull was dropped.
+31.10.13 15:25:09 :	Index NameAgeNull was dropped.
+31.10.13 15:27:09 :	Index NameAgeNull was dropped.
+31.10.13 15:29:51 :	Index NameAgeNull was dropped.
+31.10.13 15:32:29 :	Index NameAgeNull was dropped.
+31.10.13 15:34:38 :	Index NameAgeNull was dropped.
+31.10.13 15:36:55 :	Index NameAgeNull was dropped.
+31.10.13 15:43:22 :	Index NameAgeNull was dropped.
+31.10.13 16:12:49 :	Index NameAgeNull was dropped.
+31.10.13 16:16:57 :	Index NameAgeNull was dropped.
+31.10.13 16:30:33 :	JAVA ERROR:  For input string: "-"
+31.10.13 16:31:38 :	TABLE CARDINALITY: 10
+31.10.13 16:31:38 :	Name
+31.10.13 16:31:38 :		COLUMN CARDINALITY: 7
+31.10.13 16:31:38 :		COLUMN HIGH KEY: Ram
+31.10.13 16:31:38 :		COLUMN LOW KEY: Jake
+31.10.13 16:31:38 :	Age
+31.10.13 16:31:38 :		COLUMN CARDINALITY: 6
+31.10.13 16:31:38 :		COLUMN HIGH KEY: 55
+31.10.13 16:31:38 :		COLUMN LOW KEY: 5
+31.10.13 16:31:38 :	Relation
+31.10.13 16:31:38 :		COLUMN CARDINALITY: 6
+31.10.13 16:31:38 :		COLUMN HIGH KEY: son
+31.10.13 16:31:38 :		COLUMN LOW KEY: brother
+31.10.13 17:56:51 :	TABLE CARDINALITY: 10
+31.10.13 17:56:51 :	Name
+31.10.13 17:56:51 :		COLUMN CARDINALITY: 7
+31.10.13 17:56:51 :		COLUMN HIGH KEY: Ram
+31.10.13 17:56:51 :		COLUMN LOW KEY: Jake
+31.10.13 17:56:51 :	Age
+31.10.13 17:56:51 :		COLUMN CARDINALITY: 6
+31.10.13 17:56:51 :		COLUMN HIGH KEY: 55
+31.10.13 17:56:51 :		COLUMN LOW KEY: 5
+31.10.13 17:56:51 :	Relation
+31.10.13 17:56:51 :		COLUMN CARDINALITY: 6
+31.10.13 17:56:51 :		COLUMN HIGH KEY: son
+31.10.13 17:56:51 :		COLUMN LOW KEY: brother
+31.10.13 18:06:16 :	Index AgeNameNullD2 was dropped.
+31.10.13 18:09:22 :	Index AgeNameNullD2 was dropped.
+31.10.13 18:57:58 :	Error: Index NameNull does not exist.
+31.10.13 18:58:28 :	Error: Index NAMENULL does not exist.
+31.10.13 20:49:22 :	Index AgeD was dropped.
+31.10.13 20:50:43 :	Index AGE was dropped.
+31.10.13 20:57:43 :	Index AGED was dropped.
+31.10.13 20:59:26 :	Index AGED was dropped.
+31.10.13 21:03:08 :	Index NAMED was dropped.
+31.10.13 21:10:46 :	Index AgeNameD1 was dropped.
+31.10.13 21:12:53 :	Index AgeNameD1 was dropped.
+31.10.13 22:00:18 :	JAVA ERROR:  No group 2
+31.10.13 22:01:19 :	JAVA ERROR:  No group 2
+31.10.13 22:02:21 :	JAVA ERROR:  No group 2
+31.10.13 22:29:31 :	TABLE CARDINALITY: 10
+31.10.13 22:29:31 :	Name
+31.10.13 22:29:31 :		COLUMN CARDINALITY: 7
+31.10.13 22:29:31 :		COLUMN HIGH KEY: Ram
+31.10.13 22:29:31 :		COLUMN LOW KEY: Jake
+31.10.13 22:29:31 :	Age
+31.10.13 22:29:31 :		COLUMN CARDINALITY: 6
+31.10.13 22:29:31 :		COLUMN HIGH KEY: 55
+31.10.13 22:29:31 :		COLUMN LOW KEY: 5
+31.10.13 22:29:31 :	Relation
+31.10.13 22:29:31 :		COLUMN CARDINALITY: 6
+31.10.13 22:29:31 :		COLUMN HIGH KEY: son
+31.10.13 22:29:31 :		COLUMN LOW KEY: brother
